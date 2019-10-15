@@ -13,6 +13,7 @@ const Main = styled.div`
   align-content: center;
   flex-wrap: wrap;
 `;
+Main.displayName = "Main";
 
 const selectAnimation = keyframes`
   from {
@@ -44,6 +45,7 @@ const ImageWrapper = styled.div`
     );
   }}
 `;
+ImageWrapper.displayName = "ImageWrapper";
 
 const App = props => {
   const [data, setData] = useState([]);
